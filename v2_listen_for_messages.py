@@ -1,6 +1,6 @@
 """
 
-Message listener 
+Message listener - Laura Dooley 5/19/2024
 
 Description:
 This script continuously listens for messages on a named queue.
@@ -51,7 +51,7 @@ def process_message(ch, method, properties, body):
 # define a main function to run the program
 # pass in the hostname as a string parameter if you like
 # if no argument is provided, set a default value to localhost
-def main(hn: str = "localhosttt"):
+def main(hn: str = "localhost"):
     """Main program entry point."""
 
     # when a statement can go wrong, use a try-except block

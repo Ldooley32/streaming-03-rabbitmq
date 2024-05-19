@@ -1,6 +1,6 @@
 """
 
-Message sender / emitter 
+Message sender / emitter - Laura Dooley 5/19/2024
 
 Description:
 This script sends one message on a named queue.
@@ -66,4 +66,4 @@ def send_message(host: str, queue_name: str, message: str):
 # If this is the script we are running, then call some functions and execute code!
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    send_message("llllocalhost", "hello", "Hello World!")
+    send_message("localhost", "hello", "Hello World!")
